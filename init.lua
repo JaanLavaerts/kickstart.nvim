@@ -72,6 +72,7 @@ require('lazy').setup({
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
+  'ThePrimeagen/vim-be-good',
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
@@ -275,9 +276,10 @@ require('lazy').setup({
 
 -- Set highlight on search
 vim.o.hlsearch = false
-
 -- Make line numbers default
 vim.wo.number = true
+-- Make relative line numbers default
+vim.wo.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
